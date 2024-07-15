@@ -43,5 +43,5 @@ jobs:
         # skopeo copy --all docker://gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/imagedigestexporter:v0.44.4 docker://benchina/tektoncd-pipeline-imagedigestexporter:v0.44.4
         # skopeo copy --all docker://gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/pullrequest-init:v0.44.4 docker://benchina/tektoncd-pipeline-pullrequest-init:v0.44.4
         # skopeo copy --all docker://gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/workingdirinit:v0.44.4 docker://benchina/tektoncd-pipeline-workingdirinit:v0.44.4
-        skopeo copy --all docker://gcr.io/google-samples/hello-app:1.0 docker://docker.io/benchina/hello-app:1.0
-        skopeo copy --all docker://gcr.io/google-samples/hello-app:2.0 docker://docker.io/benchina/hello-app:2.0
+        skopeo copy --all docker://gcr.io/google-samples/hello-app:1.0 docker://benchina/hello-app:1.0
+        skopeo copy --all docker://gcr.io/google-samples/hello-app:2.0 docker://benchina/hello-app:2.0
